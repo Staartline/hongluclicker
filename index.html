@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HongLu Clicker</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="headerfooter.js" defer></script>
+</head>
+<body>
+	<header class="header"></header>
+	<h1>Hong Lu... Click him</h1>
+	<h2 id="score">Score:0</h2>
+	<div class="flex-container">
+		<div class="flex-container shopbuttons">
+			<h2>Shop</h2>
+			<button onclick="multiplierIncrease(1, 10);">Uptie [+1, cost 10]</button>
+			<button onclick="multiplierIncrease(5, 50);">Extract [+5, cost 50]</button>
+			<button onclick="multiplierIncrease(10, 100);">Threadspin [+10, cost 100]</button>
+		</div>
+
+		<img id="belovedHongLu" src="assets/honglu_idle.png" width="50%">
+
+	</div>
+	
+	<div>
+		<button onclick="save();">Save!</button>
+		<button onclick="load();">Load!</button>
+	</div>
+	
+	<footer class="footer"></footer>
+	<script src="index.js"></script>
+</body>
+</html>

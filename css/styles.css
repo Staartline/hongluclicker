@@ -1,0 +1,33 @@
+body{
+	background-image: url(../assets/Mephitz_Inside.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+h1, h2{
+	color:white;
+}
+
+#belovedHongLu{
+	display:inline-block;
+	position:relative;
+	margin:auto;
+	top:0px;
+	right:60px;
+}
+
+.footer{
+	background-color: black;
+}
+
+.flex-container{
+	display:flex;
+	padding: 0px 10px;
+	
+}
+
+.shopbuttons{
+	flex-direction: column;
+	width:20vw;
+	gap:5px;
+}
